@@ -1,0 +1,40 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card-user {
+  margin: 10px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex: 1 1 300px;
+}
+.card-user-infos {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+.card-user-infos h2 {
+  font-size: 18px;
+  margin: 0px;
+}
+.card-user-infos h3 {
+  font-family: "Open Sans";
+  color: rgba(0,0,0,0.4);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.card-user-infos p {
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.card-user-avatar {
+  width: 80px;
+  border-radius: 50%;
+}
